@@ -10,7 +10,7 @@ import json
 with DAG(
     dag_id='nasa_apod_postgres',
     start_date=days_ago(1),
-    schedule='@daily',   # ✅ Airflow 2.7+ uses 'schedule'
+    schedule='@daily',   
     catchup=False
 ) as dag:
 
