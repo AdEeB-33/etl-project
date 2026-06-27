@@ -1,7 +1,6 @@
-echo "# etl-project" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M node-js
-git remote add origin https://github.com/AdEeB-33/etl-project.git
-git push -u origin node-js
+default-jdk
+git
+curl
+wget
+build-essential
+python3-dev
